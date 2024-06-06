@@ -26,6 +26,6 @@ jobs:
       - name: Run bot script
         run: node bot.js
         env:
-          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-          CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
-          PROXY_URL: ${{ secrets.PROXY_URL }}
+          BOT_TOKEN: ${{ 7212552198:AAE10QYLm_qC0e2MV7pV0WYYVvJ66kfKPvI }}
+          CHANNEL_ID: ${{ github_get }}
+          PROXY_URL: ${{  }}
