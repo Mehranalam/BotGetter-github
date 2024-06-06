@@ -8,9 +8,9 @@ const SocksProxyAgent = require('socks-proxy-agent');
 // channel 
 
 
-const botToken = process.env.BOT_TOKEN;
-const channelID = process.env.CHANNEL_ID;
-const proxy = process.env.PROXY_URL;
+const botToken = '7212552198:AAE10QYLm_qC0e2MV7pV0WYYVvJ66kfKPvI';
+const channelID = 'github_get';
+const proxy = ''
 
 const agent = proxy ? new SocksProxyAgent(proxy) : null;
 
